@@ -7,3 +7,22 @@ const nombre = "Carlos Martinez"
 
 console.log(nombre)
 
+// Declarar una variable es asignarle su nombre sin ningun valor, esto solo se puede hacer con variables var y let ejemplo
+
+//Declaracion
+var variable_1;
+let variable_2;
+
+// Inicializacion
+variable_1 = 20;
+variable_2 = "Hola soy una variable";
+
+// Declaracion & inicializacion
+const variable_3 = "Soy Reto 30 dias Javascript";
+
+console.log(variable_1)
+console.log(variable_2)
+console.log(variable_3)
+
+
+
