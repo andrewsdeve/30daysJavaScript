@@ -97,5 +97,5 @@ function printTriangle(size, character) {
     
     return triangle;
   }
-  console.log(printTriangle(20,1))
+  console.log(printTriangle(5,9))
 
