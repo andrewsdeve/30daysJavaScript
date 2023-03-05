@@ -9,7 +9,7 @@ A partir de esta información, debes retornar un nuevo objeto que tenga la propi
 
 Es importante mencionar que los promedios deben ser calculados con precisión y se deben redondear a dos decimales para que los test pasen sin problema alguno. Puedes usar el método toFixed() el cual se usa de la siguiente manera 👇 */
 
-export function getStudentAverage(students) {
+function getStudentAverage(students) {
     // Tu código aquí 👈
     let total = 0;
     const course = {
@@ -30,7 +30,7 @@ export function getStudentAverage(students) {
     return course;
   }
 
-  export function findLargestPalindrome(words) {
+  function findLargestPalindrome(words) {
     // Tu código aquí 👈
     //primero creamos un array con los palindromos 
     let rta = [];
@@ -54,3 +54,10 @@ export function getStudentAverage(students) {
       return rtaFinal;
     } return null;
   }
+
+  // Ejercicios
+
+  const a = [];
+  const b = [1,true,"Juann",10.5];
+  console.log(b);
+  
