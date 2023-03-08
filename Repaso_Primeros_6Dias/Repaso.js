@@ -47,6 +47,53 @@ console.log(nombre + apellido);
 console.log(`${nombre}, ${apellido}`); // Es la manera mas utilizada en JS
 console.log(`Hola!! tus nombres son:  ${nombre} y tus apellidos ${apellido} gracias por tu atencion!! `)
 
+// TIPOS DE DATOS: en JS existen varios tipos de datos los cuales vamos a describir a continuacion:
+/* DATOS NUMERICOS EN JS: 
+1. Numeros Enteros ; 1,2,3,4,5,6,7,8......etc
+2. Numeros Flotantes: 1.5,4.5 etc
+3. Numero Infinito 1/0
+4. Numero - infinito -1 / 0
+5. NaN: NOT a Number
+
+
+STRING: Siempre estan rodeadeos entre comillas " " , '' , ` ` 
+
+BOOLEANOS: true o false
+
+NULL : No existe objeto de referencia
+UNDEFINED: LA VARIABLE NO HA SIDO ASIGNADA TODAVIA
+
+OBJETOS Y SIMBOLOS: Tiene conexion de datos en su interior
+TYPEOF: PARA SABER QUE TIPO DE VARIALBE
+
+*/
+
+// Tipo de Datos Numericos:
+
+let numero_1 = 20;
+let numero_2 = 35;
+let operacion = numero_1 + numero_2;
+console.log(typeof operacion);
+
+let string_1 = "Hola";
+let string_2 = "Mundo";
+console.log(`${string_1}, ${string_2}`);
+
+let nombres = null;
+console.log(nombres);
+
+let monitor;
+console.log(monitor);
+
+console.log(typeof string_1);
+
+// STRINGS METHODS
+
+let palabra = '30 dias aprendiendo javascript';
+
+
+
+
 
 
 
