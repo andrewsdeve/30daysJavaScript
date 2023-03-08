@@ -128,8 +128,33 @@ let ad = numero.toPrecision(10);
 console.log(ad);
 
 
+/* Escriba una función con el nombre de esVocal() que tome un carácter , devuelva True si es vocal (no importa si es mayúscula o minúscula), y devuelva False en caso contrario. */
 
+function esVocal (arg){
+    if (arg == "a" || arg == "e" || arg == "i" || arg == "o" || arg == "u"){
+        return "Es una Volca"
+    }if (arg == "A" || arg == "E" || arg == "I" || arg == "O" || arg == "U"){
+        return "Es una Vocal"
+    }else{
+        return "No es VOCAL"
+    }
+}
 
+const respuesta = esVocal("A");
+console.log(respuesta);
+
+/* Crea una función llamada generar_caracteres() que tome como parámetro un número entero (n) y un carácter, retornar el carácter multiplicado por n. Por ejemplo, generar_caracteres(5,x), debería retornar «xxxxx». */
+
+const genCaracteres = (numero, caracter) => {
+    resp = '';
+    for(let i =0; i < numero; i++){
+        resp += caracter
+    }
+    return resp
+}
+
+const respuesta_1 = genCaracteres(20, "X");
+console.log(respuesta_1);
 
 
 
