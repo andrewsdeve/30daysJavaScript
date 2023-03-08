@@ -156,7 +156,33 @@ const genCaracteres = (numero, caracter) => {
 const respuesta_1 = genCaracteres(20, "X");
 console.log(respuesta_1);
 
+/* Crear una función inversa() que calcule la inversión de una cadena y lo retorne. Por ejemplo, la cadena «Hola Mundo» debería retornar la cadena «odnum aloh» (retornar todo el String en minúsculas). */
 
+const inversa = (cadena) => {
 
+    let invertida = (cadena).toLocaleLowerCase().split('').reverse().join('');
+    return invertida;
 
+}
 
+const respuestas = inversa('Hola Mundo');
+console.log(respuestas); // respuesta: odnum aloh
+
+const cadenaInvertida = (cad) =>{
+    let cadInvertida = (cad).toLocaleLowerCase().split('').reverse().join('');
+    return cadInvertida;
+}
+console.log(cadenaInvertida("JUAN"))
+
+/* Crear una función sumaArreglo() que tome como parámetro un arreglo de números, retornar la longitud del arreglo + la suma de todos los números del arreglo. */
+
+const sumaArreglo = (arreglo) =>{
+    const longitudArreglo = arreglo.length;
+    let sumaArreglo = 0;
+       for(let i=0; i<longitudArreglo; i++){
+        sumaArreglo += arreglo[i]
+    }
+
+    return longitudArreglo + sumaArreglo;
+}
+console.log(sumaArreglo([1,2,3,4,5,6]));
