@@ -186,3 +186,6 @@ const sumaArreglo = (arreglo) =>{
     return longitudArreglo + sumaArreglo;
 }
 console.log(sumaArreglo([1,2,3,4,5,6]));
+
+
+/* Crear una función multiplicarArreglo() que tome como parámetro un arreglo de números, retornar la multiplicación del número menor del arreglo y el número mayor del arreglo. */
