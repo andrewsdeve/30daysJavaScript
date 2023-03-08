@@ -77,3 +77,22 @@ function solution(valor) {
   console.log(solution(1));
   console.log(solution("Dieguillo"));
   console.log(solution(true));
+
+  // EJERCICIOS FUNCIONES
+
+/* Crea una función llamada numeroMayor() que toma tres números como entrada y retornar el numero mayor de ellos, si son iguales devolver un String «son iguales». */
+
+function numeroMayor (arg1, arg2, arg3){
+    if(arg1 > arg2 && arg1 > arg2){
+        return arg1
+    }else if (arg2 > arg1 && arg2 > arg3){
+        return arg2
+    }else if(arg3 > arg1 && arg3 > arg2){
+        return arg3
+    }else{
+        return "Son Iguales"
+    }
+}
+
+const respuesta = numeroMayor(5,9,7);
+console.log(respuesta)

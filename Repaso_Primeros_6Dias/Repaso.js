@@ -91,6 +91,42 @@ console.log(typeof string_1);
 
 let palabra = '30 dias aprendiendo javascript';
 
+function esIgual (str1, str2){
+    return string_1.toUpperCase()=== str2.toUpperCase();
+}
+
+console.log(esIgual("HOLA","HOLA"))
+console.log(palabra.length);
+console.log(palabra.toUpperCase);
+console.log(palabra.toLocaleLowerCase());
+
+//OBJETOS:
+
+const persona = {
+    nombre: "Juan",
+    apellido: "Gomez",
+    codigo: 1254,
+    colorPiel: "Blanca",
+    estudios: {
+        Universidad: "Tadeo",
+        Carrera: "Ing Sistemas",
+        Sede: 'Centro',
+        CodigoEstudiae: 457812
+    },
+    Altura: 1.70
+};
+
+console.log(persona);
+
+// Metodos de la clase Number 
+// 1. toPrecision():
+let numero = 13.785412;
+let a = numero.toPrecision();
+let ab = numero.toPrecision(2);
+let ac = numero.toPrecision(3);
+let ad = numero.toPrecision(10);
+console.log(ad);
+
 
 
 
