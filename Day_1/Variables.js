@@ -24,5 +24,16 @@ console.log(variable_1)
 console.log(variable_2)
 console.log(variable_3)
 
+const miNombre = "Santy";
+
+function suma(arg,arg2){
+    const operacion = 0;
+    return operacion = arg + arg2;
+    console.log(suma(2,2));
+}
+
+console.log(miNombre);
+
+
 
 
