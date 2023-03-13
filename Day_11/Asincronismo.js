@@ -116,3 +116,4 @@ function wait(ms) {
 
     /* En este ejemplo, la función wait() verifica si el argumento ms es menor que cero. Si es así, se llama a reject() con un objeto de error que indica que el número de milisegundos es inválido. Si ms es mayor o igual a cero, se llama a setTimeout() para crear la tarea asincrónica que llamará a resolve() después del número de milisegundos especificado. La función wait() devuelve la promesa creada. */
 
+    
